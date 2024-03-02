@@ -1,16 +1,13 @@
-import { View, StyleSheet, TextInput, Button } from 'react-native';
+import {View, StyleSheet, TextInput, Button} from 'react-native';
 
 export default function ToDoForm() {
   return (
     <View style={styles.form}>
-      <TextInput
-        style={styles.input}
-        placeholder="Add a new task..."
-      />
+      <TextInput style={styles.input} placeholder="Add a new task..." />
       <Button title="Add" />
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   form: {
